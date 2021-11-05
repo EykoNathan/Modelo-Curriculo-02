@@ -1,0 +1,156 @@
+@font-face {
+    font-family: "Oswald";
+    src: url("../fonts/Oswald-Regular.ttf");
+}
+@font-face {
+    font-family: "Oswald-Light";
+    src: url("../fonts/Oswald-Light.ttf");
+}
+header .header-amarelo{
+    height: 270px;
+    width: 100%;
+    background-color: #f1c40f;
+}
+header .header-amarelo #foto{
+    width: 300px;
+    height: 270px;
+    margin-left: -125px;
+    border-right: #fff 5px solid;
+}
+header .nome{
+    position: absolute;
+    top: 12px;
+    left: 350px;
+}
+header .nome h1{
+    font-family: "Oswald";
+    font-size: 80px;
+}
+header .nome small{
+    font-family: "Oswald-Light";
+    font-size: 25px;
+    position: relative;
+    top: -70px;
+}
+section .detalhes{
+    margin-top: 40px;
+}
+section .localizacao li{
+    display: block;
+    margin-left: -32px;
+}
+section .detalhes .list-unstyled{
+    margin-top: -18px;
+}
+section .detalhes,
+section .perfil,
+section .educacao,
+section .emprego,
+section .habilidades{
+    margin-left: 120px;    
+}
+section .detalhes h2{
+    font-family: "Oswald";
+    color: #fff;
+    line-height: 40px;
+    font-size: 25px;
+}
+section .detalhes ul{
+    font-family: "Oswald-Light";
+    margin-top: 20px;
+}
+section .perfil h2{
+    font-family: "Oswald";
+    color: #fff;
+    line-height: 40px;
+    font-size: 25px;
+}
+section .perfil p{
+    font-family: "Oswald-Light";
+    width: 1100px;
+    margin-top: 19px;
+}
+section .detalhes .section-preto{
+    background-color: #000;
+    width: 213px;
+}
+section .perfil .section-preto{
+    background-color: #000;
+    width: 225px;
+    margin-top: 30px;
+}
+section .educacao h2{
+    font-family: "Oswald";
+    color: #fff;
+    line-height: 40px;
+    font-size: 25px;
+}
+section .educacao .section-preto{
+    background-color: #000;
+    width: 125px;
+    margin-top: 30px;
+}
+section .educacao p{
+    font-family: "Oswald-Light";
+    width: 1100px;
+    margin-top: 19px;
+}
+section .emprego .section-preto{
+    background-color: #000;
+    width: 249px;
+    margin-top: 30px;
+}
+section .emprego h2{
+    font-family: "Oswald";
+    color: #fff;
+    line-height: 40px;
+    font-size: 25px;
+}
+section .emprego p{
+    font-family: "Oswald-Light";
+    width: 1100px;
+    margin-top: 19px;
+}
+section .emprego ul{
+    font-family: "Oswald-Light";
+    width: 1100px;
+}
+section .habilidades .section-preto{
+    background-color: #000;
+    width: 146px;
+    margin-top: 30px;
+}
+section .habilidades h2{
+    font-family: "Oswald";
+    color: #fff;
+    line-height: 40px;
+    font-size: 25px;
+}
+section .habilidades li{
+    display: inline-block;
+    font-family: "Oswald-Light";
+    margin-top: 20px;
+}
+section .habilidades ul #js{
+    position: relative;
+    left: 320px;
+}
+section .habilidades ul #php{
+   position: relative;
+   left: 671px;
+}
+section .habilidades ul #js hr{
+    border: black 4px solid;
+    width: 120px;
+}
+section .habilidades ul #html hr{
+    border: black 4px solid;
+    width: 190px;
+}
+section .habilidades ul #php hr{
+    border: black 4px solid;
+    width: 60px;
+}
+section .habilidades ul{
+    margin-bottom: 70px;
+}
